@@ -1,4 +1,4 @@
-package dev.rranndt.storay.core.data.remote
+package dev.rranndt.storay.core.data.remote.api
 
 import dev.rranndt.storay.core.data.remote.dto.AddStoryResponseDto
 import dev.rranndt.storay.core.data.remote.dto.SignInResponseDto

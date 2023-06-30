@@ -1,4 +1,4 @@
-package dev.rranndt.storay.core.data.local
+package dev.rranndt.storay.core.data.local.dao
 
 import androidx.room.Dao
 import androidx.room.Insert

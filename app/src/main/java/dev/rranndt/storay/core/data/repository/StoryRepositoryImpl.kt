@@ -7,11 +7,11 @@ import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dev.rranndt.storay.R
-import dev.rranndt.storay.core.data.local.StoryDatabase
+import dev.rranndt.storay.core.data.local.db.StoryDatabase
 import dev.rranndt.storay.core.data.mapper.toStory
 import dev.rranndt.storay.core.data.mapper.toStoryResult
 import dev.rranndt.storay.core.data.remote.RemoteDataSource
-import dev.rranndt.storay.core.data.remote.StoryApi
+import dev.rranndt.storay.core.data.remote.api.StoryApi
 import dev.rranndt.storay.core.data.remote.paging.StoryRemoteMediator
 import dev.rranndt.storay.core.domain.model.AddStoryRequest
 import dev.rranndt.storay.core.domain.model.AddStoryResponse

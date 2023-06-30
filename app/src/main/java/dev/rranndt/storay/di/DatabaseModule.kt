@@ -8,7 +8,7 @@ import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import dev.rranndt.storay.BuildConfig
-import dev.rranndt.storay.core.data.local.StoryDatabase
+import dev.rranndt.storay.core.data.local.db.StoryDatabase
 import dev.rranndt.storay.util.Constant.DB_NAME
 import dev.rranndt.storay.util.Constant.PASS_PHRASE
 import net.sqlcipher.database.SQLiteDatabase

@@ -5,11 +5,11 @@ import androidx.paging.LoadType
 import androidx.paging.PagingState
 import androidx.paging.RemoteMediator
 import androidx.room.withTransaction
-import dev.rranndt.storay.core.data.local.StoryDatabase
+import dev.rranndt.storay.core.data.local.db.StoryDatabase
 import dev.rranndt.storay.core.data.local.entity.RemoteKey
 import dev.rranndt.storay.core.data.local.entity.StoryEntity
 import dev.rranndt.storay.core.data.mapper.toStoryEntity
-import dev.rranndt.storay.core.data.remote.StoryApi
+import dev.rranndt.storay.core.data.remote.api.StoryApi
 import dev.rranndt.storay.util.Constant.STARTING_PAGE_INDEX
 import okio.IOException
 import retrofit2.HttpException

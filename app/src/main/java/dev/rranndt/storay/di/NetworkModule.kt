@@ -6,7 +6,7 @@ import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import dev.rranndt.storay.BuildConfig
 import dev.rranndt.storay.core.data.preferences.UserPreferences
-import dev.rranndt.storay.core.data.remote.StoryApi
+import dev.rranndt.storay.core.data.remote.api.StoryApi
 import dev.rranndt.storay.util.Constant.AUTHORIZATION
 import dev.rranndt.storay.util.Helper.generateToken
 import kotlinx.coroutines.flow.first

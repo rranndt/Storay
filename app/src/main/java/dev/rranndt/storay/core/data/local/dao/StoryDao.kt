@@ -1,4 +1,4 @@
-package dev.rranndt.storay.core.data.local
+package dev.rranndt.storay.core.data.local.dao
 
 import androidx.paging.PagingSource
 import androidx.room.Dao

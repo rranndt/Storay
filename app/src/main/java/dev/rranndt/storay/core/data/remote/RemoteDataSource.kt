@@ -1,6 +1,7 @@
 package dev.rranndt.storay.core.data.remote
 
 import dev.rranndt.storay.core.data.mapper.toStoryUpload
+import dev.rranndt.storay.core.data.remote.api.StoryApi
 import dev.rranndt.storay.core.domain.model.AddStoryRequest
 import dev.rranndt.storay.core.domain.model.AddStoryResponse
 import dev.rranndt.storay.util.Constant.IMAGE_JPEG
