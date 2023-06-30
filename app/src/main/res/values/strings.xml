@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name" translatable="false">Storay</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="error_name">Name can\'t be empty.</string>
+    <string name="error_email">Given email isn\'t valid.</string>
+    <string name="error_password">Password must be at least 8 chars.</string>
+    <string name="text_sign_up">Sign Up</string>
+    <string name="text_sign_in">Sign In</string>
+    <string name="text_sign_out">Sign Out</string>
+    <string name="text_change_language">Change Language</string>
+    <string name="title_header_sign_up">Create Your Account</string>
+    <string name="title_header_sign_in">Sign to your Account</string>
+    <string name="text_view_to_sign_in">I have an Account? <b><font color="#6750A4">Sign In</font></b></string>
+    <string name="text_view_to_sign_up">Don\'t have an Account? <b><font color="#6750A4">Sign Up</font></b></string>
+    <string name="alert_dialog_message">You will be returned to the sign in screen.</string>
+    <string name="alert_dialog_text_yes">Sign Out</string>
+    <string name="alert_dialog_text_no">Cancel</string>
+    <string name="content_description_profile_picture">profile picture</string>
+    <string name="content_description_image_content">image content</string>
+    <string name="text_uploaded">• %s</string>
+    <string name="content_description_fab_scrollup">Fab ScrollUp</string>
+    <string name="text_menu_title">Timeline</string>
+    <string name="text_detail_title">Detail</string>
+    <string name="text_add_story_title">Add Story</string>
+    <string name="content_description_preview_photo">Preview photo</string>
+    <string name="content_description_button_upload">Button upload</string>
+    <string name="dialog_permission_title">Permission required</string>
+    <string name="dialog_permission_default_message">Default message</string>
+    <string name="dialog_permission_button_positive">OK</string>
+    <string name="title_add_photo">Add photo</string>
+    <string name="rationale_permission_camera">We need permission to use the camera</string>
+    <string name="cant_access_permission_camera">We couldn\'t access the camera :(</string>
+    <string name="pick_your_image_first">Pick your image first</string>
+    <string name="choose_picture">Choose a picture</string>
+    <string name="just_now">Just now</string>
+    <string name="minute_ago">A minute ago</string>
+    <string name="hour_ago">An hour ago</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="week_ago">A week ago</string>
+    <string name="month_ago">A month ago</string>
+    <string name="year_ago">A year ago</string>
+    <string name="years_ago">Years ago</string>
+    <string name="m">m</string>
+    <string name="h">h</string>
+    <string name="d">d</string>
+    <string name="w">w</string>
+    <string name="mo">mo</string>
+    <string name="no_location_included">Location not found</string>
+    <string name="io_exception">Couldn\'t reach server,\ncheck your internet connection!</string>
+    <string name="empty_text">No data</string>
+    <string name="app_widget_description">Widget</string>
+    <string name="content_description_story_image">Story Image</string>
+
+    <string-array name="add_photos">
+        <item>Take a photo</item>
+        <item>Choose from gallery</item>
+    </string-array>
+
+</resources>
