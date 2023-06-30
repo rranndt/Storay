@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Storay</string>
+    <string name="hint_name">Nama</string>
+    <string name="hint_description">Deskripsi</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Kata sandi</string>
+    <string name="error_name">Nama tidak boleh kosong.</string>
+    <string name="error_email">Email yang diberikan tidak valid.</string>
+    <string name="error_password">Pasword minimal 8 karakter</string>
+    <string name="text_sign_up">Daftar</string>
+    <string name="text_sign_in">Masuk</string>
+    <string name="text_sign_out">Keluar</string>
+    <string name="text_change_language">Ganti bahasa</string>
+    <string name="title_header_sign_up">Buat akun anda</string>
+    <string name="title_header_sign_in">Masuk ke akun anda</string>
+    <string name="text_view_to_sign_in">Sudah punya akun? <b><font color="#6750A4">Masuk</font></b></string>
+    <string name="text_view_to_sign_up">Belum punya akun? <b><font color="#6750A4">Daftar</font></b></string>
+    <string name="alert_dialog_message">Anda akan kembali ke halaman masuk</string>
+    <string name="alert_dialog_text_yes">Keluar</string>
+    <string name="alert_dialog_text_no">Batal</string>
+    <string name="content_description_profile_picture">Profil gambar</string>
+    <string name="content_description_image_content">Konten gambar</string>
+    <string name="text_uploaded">• %s</string>
+    <string name="content_description_fab_scrollup">Fab ScrollUp</string>
+    <string name="text_menu_title">Linimasa</string>
+    <string name="text_detail_title">Detil</string>
+    <string name="text_add_story_title">Tambah cerita</string>
+    <string name="content_description_preview_photo">Pratinjau foto</string>
+    <string name="content_description_button_upload">Tombol unggah</string>
+    <string name="dialog_permission_title">Izin dibutuhkan</string>
+    <string name="dialog_permission_default_message">Pesan bawaan</string>
+    <string name="dialog_permission_button_positive">Ok</string>
+    <string name="title_add_photo">Tambah foto</string>
+    <string name="rationale_permission_camera">Kami butuh izin menggunakan kamera</string>
+    <string name="cant_access_permission_camera">Kami tidak bisa mengakses kamera :(</string>
+    <string name="pick_your_image_first">Pilih gambar terlebih dahulu</string>
+    <string name="choose_picture">Pilih gambar</string>
+    <string name="just_now">Baru saja</string>
+    <string name="minute_ago">Semenit lalu</string>
+    <string name="hour_ago">Sejam lalu</string>
+    <string name="yesterday">Kemarin</string>
+    <string name="week_ago">Seminggu lalu</string>
+    <string name="month_ago">Sebulan lalu</string>
+    <string name="year_ago">Setahun lalu</string>
+    <string name="years_ago">Beberapa tahun lalu</string>
+    <string name="m">m lalu</string>
+    <string name="h">j lalu</string>
+    <string name="d">h lalu</string>
+    <string name="w">mi lalu</string>
+    <string name="mo">b lalu</string>
+    <string name="no_location_included">Lokasi tidak ditemukan</string>
+    <string name="io_exception">Tidak dapat menjangkau server,\nperiksa koneksi internet Anda!</string>
+    <string name="no_data">Tidak ada data</string>
+    <string name="content_description_story_image">Cerita gambar</string>
+    <string name="app_widget_description">Widget</string>
+    <string name="text_retry">Coba lagi</string>
+    <string name="title_dashboard">Dashbor</string>
+    <string name="title_maps">Peta</string>
+    <string name="text_include_location">Sertakan lokasi</string>
+    <string name="location_not_found">Lokasi tidak ditemukan</string>
+
+    <string-array name="add_photos">
+        <item>Ambil foto</item>
+        <item>Pilih dari galeri</item>
+    </string-array>
+</resources>

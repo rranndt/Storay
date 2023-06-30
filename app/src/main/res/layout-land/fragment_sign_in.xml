@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.auth.signin.SignInFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineVertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <TextView
+        android:id="@+id/tvTitleHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:alpha="0"
+        android:fontFamily="@font/poppins_bold"
+        android:paddingHorizontal="24dp"
+        android:text="@string/title_header_sign_in"
+        android:textColor="@color/black_100"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/etEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        tools:alpha="1" />
+
+    <dev.rranndt.storay.presentation.views.CustomEmail
+        android:id="@+id/etEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="8dp"
+        android:alpha="0"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/poppins_light"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:textColor="@color/black_100"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@id/guidelineHorizontal"
+        app:layout_constraintEnd_toEndOf="@id/guidelineVertical"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:alpha="1" />
+
+    <dev.rranndt.storay.presentation.views.CustomPassword
+        android:id="@+id/etPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:alpha="0"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/poppins_light"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textColor="@color/black_100"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/guidelineVertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guidelineHorizontal"
+        tools:alpha="1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSignIn"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="24dp"
+        android:alpha="0"
+        android:enabled="false"
+        android:text="@string/text_sign_in"
+        android:textSize="16sp"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toTopOf="@id/tvToSignUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guidelineVertical"
+        app:layout_constraintTop_toTopOf="@id/etEmail"
+        tools:alpha="1" />
+
+    <TextView
+        android:id="@+id/tvToSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/text_view_to_sign_up"
+        android:textColor="@color/black_100"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@id/etPassword"
+        app:layout_constraintEnd_toEndOf="@id/btnSignIn"
+        app:layout_constraintStart_toStartOf="@id/btnSignIn"
+        app:layout_constraintTop_toBottomOf="@id/btnSignIn"
+        tools:alpha="1" />
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/progressBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
